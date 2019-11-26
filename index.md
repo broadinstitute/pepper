@@ -10,10 +10,10 @@ We are also happy to look at pull requests, although our ability to do so is lim
 
 We believe in loose coupling and the ability to innovate, so rather than bundling everything together, we have backend APIs and SDKs.  Hopefully you find the SDKs helpful, but if they are too constraining, you can always drop back to the APIs directly.
 
-### Study Server
+### [Study Server](https://github.com/broadinstitute/ddp-study-server)
 The study server is where participant-reported information is stored and managed using our APIs.  The study server also manages participant-facing worklows and reminders.
 
-### Study Manager
+### [Study Manager](https://github.com/broadinstitute/ddp-study-manager)
 Study staff interact with the study manager to review the status of participants and keep track of logistics such as form completion, medical records and kit logistics, abstraction, and review participant-reported data.
 
 ### SDKs: Angular, [iOS](https://github.com/broadinstitute/pepper-ios-sdk), and [Android](https://github.com/broadinstitute/ddp-android-sdk)
@@ -21,7 +21,7 @@ Pepper's SDKs provide more fluent ways to interact with the backend, and provide
 
 ## Architecture
 
-We rely on docker and are in the process of moving towards google app engine to simplify deployment, compliance, and reduce operational costs.
+We rely on docker and are in the process of moving towards google app engine to simplify deployment, compliance, and reduce operational costs.   The Study Manager and Study Server communicate with one another directly, as well as through Elastic.  Participant-facing applications primarily interact with the study server, while study staff primarily interact with the study manager.
 
 ## Building
 
