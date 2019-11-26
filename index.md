@@ -29,16 +29,16 @@ Our bandwidth to assist with building the entire platform outside of its current
 
 #### Vault
 
-We use vault to store build secrets.  Our build scripts hardcode vault paths, and tools expect that whoever runs the scripts has sufficient access to vault.  Take a look at `*.conf.ctmpl` files to get a sense of what these values are.  We do not provide rendered example configuration files.
+We use [vault](https://www.vaultproject.io) to store build secrets.  Our build scripts hardcode vault paths, and tools expect that whoever runs the scripts has sufficient access to vault.  Take a look at `*.conf.ctmpl` files to get a sense of what these values are.  We do not provide rendered example configuration files.
 
 #### Auth0
 
-Auth0 is the backbone for identity management.  In order to deploy a running backend instance, you will need at least one auth0 tenant.  Auth0 has some terrific free options.
+[Auth0](https://auth0.com) is the backbone for identity management.  In order to deploy a running backend instance, you will need at least one auth0 tenant.  Auth0 has some terrific free options.
 
 #### Sendgrid (Twilio)
 
-Emails from Pepper are sent via Sendgrid.  Sendgrid has great free options.
+Emails from Pepper are sent via [Sendgrid](https://sendgrid.com).  Sendgrid has great free options.
 
 #### EasyPost
 
-We use EasyPost as a shipping aggregator.  You can setup a test account with EasyPost.
+We use [EasyPost](https://www.easypost.com) as a shipping aggregator for studies that ship sample collection kits to participants.  You can setup a test account with EasyPost.
