@@ -1,3 +1,8 @@
+---
+title: Pepper
+description: "the platform for patient-partnered research studies"
+---
+
 ## What's Pepper?
 
 Pepper is an open-source platform for building high quality, scalable, cross-platform, and secure direct-to-participant studies for human subjects research.  Pepper is the software foundation of a growing number of patient-partnered research studies operating at the Broad Institute and beyond.
