@@ -4,7 +4,7 @@ Pepper is an open-source platform for building high quality, scalable, cross-pla
 
 We encourage you to use our deployed instance of pepper to host your studies, but if you would like to spin up your own instance of Pepper, you are welcome to do so.  We feel that in the interests of democratizing access to patient partnered research, sharing our code is the right thing to do, even though we do not currently offer support for standing up your own instance.
 
-We are also happy to look at pull requests, although our ability to do so is limited at this time.
+We are also happy to look at pull requests, although our ability to do so is limited at this time.  Please adhere to our [code of conduct](code_of_conduct.md) at all times.
 
 ## Components
 
