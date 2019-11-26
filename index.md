@@ -21,7 +21,7 @@ Pepper's SDKs provide more fluent ways to interact with the backend, and provide
 
 ## Architecture
 
-We rely on docker and are in the process of moving towards google app engine to simplify deployment, compliance, and reduce operational costs.   The Study Manager and Study Server communicate with one another directly, as well as through Elastic.  Participant-facing applications primarily interact with the study server, while study staff primarily interact with the study manager.
+We rely on docker and are in the process of moving towards google app engine to simplify deployment, compliance, and reduce operational costs.   The Study Manager and Study Server communicate with one another directly, as well as through Elastic.  Participant-facing applications primarily interact with the study server, while study staff primarily interact with the study manager.  The backend of Pepper is written in Java and uses relational storage for well-structured data such as patient-reported information and abstracted medical records.  Bucket-based storage is used for pretty much everything else.
 
 ## Building
 
