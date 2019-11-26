@@ -11,7 +11,7 @@ We are also happy to look at pull requests, although our ability to do so is lim
 We believe in loose coupling and the ability to innovate, so rather than bundling everything together, we have backend APIs and SDKs.  Hopefully you find the SDKs helpful, but if they are too constraining, you can always drop back to the APIs directly.
 
 ### [Study Server](https://github.com/broadinstitute/ddp-study-server)
-The study server is where participant-reported information is stored and managed using our APIs.  The study server also manages participant-facing worklows and reminders.
+The study server is where participant-reported information is stored and managed using our APIs.  The study server also manages participant-facing workflows and reminders.
 
 ### [Study Manager](https://github.com/broadinstitute/ddp-study-manager)
 Study staff interact with the study manager to review the status of participants and keep track of logistics such as form completion, medical records and kit logistics, abstraction, and review participant-reported data.
