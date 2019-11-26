@@ -16,7 +16,7 @@ The study server is where participant-reported information is stored and managed
 ### Study Manager
 Study staff interact with the study manager to review the status of participants and keep track of logistics such as form completion, medical records and kit logistics, abstraction, and review participant-reported data.
 
-### SDKs: Angular, iOS, and Android
+### SDKs: Angular, [iOS](https://github.com/broadinstitute/pepper-ios-sdk), and [Android](https://github.com/broadinstitute/ddp-android-sdk)
 Pepper's SDKs provide more fluent ways to interact with the backend, and provide glue between backend APIs and Angular web apps, native iOS, and native Android.
 
 ## Architecture
