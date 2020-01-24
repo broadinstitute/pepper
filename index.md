@@ -6,6 +6,30 @@ We encourage you to use our deployed instance of pepper to host your studies, bu
 
 We are also happy to look at pull requests, although our ability to do so is limited at this time.  Please adhere to our [code of conduct](https://github.com/broadinstitute/pepper/blob/master/code_of_conduct.md) at all times.
 
+Pepper is a team effort, and we are grateful to the many wonderful people who have contributed to it over the years, in particular:
+
+* Mikhail Aleksandrov
+* Cameron Ardell
+* Esme Baker
+* Charlotte Dye
+* Edgar Galstyan
+* Erin Gwozdz
+* Diane Kaplan
+* Nadya Lopez Zalda
+* Jen Lapan
+* Simone Maiwald
+* Richard Nordin
+* Marco Ocana
+* Sergei Retsia
+* Sampath Settipalli
+* Pavel Sidorenko
+* Blake Skinner
+* Pegah Taheri
+* Yufeng Wang
+* Kiara Westbrooks
+* Andrew Zimmer
+
+
 ## Components
 
 We believe in loose coupling and the ability to innovate, so rather than bundling everything together, we have backend APIs and SDKs.  Hopefully you find the SDKs helpful, but if they are too constraining, you can always drop back to the APIs directly.
