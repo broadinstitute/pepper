@@ -15,7 +15,7 @@ Pepper is a team effort, and we are grateful to the many wonderful people who ha
 * Edgar Galstyan
 * Erin Gwozdz
 * Diane Kaplan
-* Nadya Lopez Zalda
+* Nadya Lopez Zalba
 * Jen Lapan
 * Simone Maiwald
 * Richard Nordin
